@@ -61,9 +61,6 @@ void DataTypesWindow::on_nextButton_clicked() {
     clickCount++;
     answerLineEdit->clear();
     displayFeedback("");
-    // Call function to get the next question from Questions object
-    // For example:
-   // questions->getNextQuestion();
     if (clickCount == 1)
     displayQuestion("Which data type is used to store single characters in C++?", /*a*/ "int", /*b*/ "char",
                     /*c*/ "double", /*d*/ "float", "2");
